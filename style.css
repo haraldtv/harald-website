@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(222, 235, 235);
+}
+
+.title {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+}
+
+.navigation {
+    background-color: rgb(140, 192, 195);
+    overflow: hidden;
+}
+
+.navigation a {
+    float: left;
+    color: #2e2a2a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .navigation a:hover {
+    background-color: rgb(125, 173, 175);
+    color: black;
+  }
+
+
+
+body {
+    font-family: Cantarell, sans-serif;
+    font-size: 110%;
+    max-width: 60em;
+    margin: 0px auto;
+    line-height: 1.5;
+}
+
