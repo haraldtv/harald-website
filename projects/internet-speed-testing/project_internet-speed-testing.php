@@ -6,13 +6,13 @@
 
 <body>
     <?php 
-        require "https://tverdal.com/header.html"
+        require "../../header.html"
     ?>
 
     <p><h1>Internet speed testing</h1></p>
 
     <?php
-    require "https://tverdal.com/footer.html"
+    require "../../footer.html"
     ?>
 </body>
 </html>
