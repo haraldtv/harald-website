@@ -7,7 +7,7 @@
 <body>
 
 <?php 
-        require "header.html"
+        require "https://tverdal.com/header.html"
         ?>
 
 <p>These are my projects</p>
@@ -16,7 +16,7 @@
 
 
 <?php
-    require "footer.html"
+    require "https://tverdal.com/footer.html"
     ?>
 </body>
 </html>
