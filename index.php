@@ -22,8 +22,11 @@
     echo date("d.m.y");
     ?>
     v3
-<p style="bottom: 0;position: fixed;left: 50%;font-size: smaller;">contact@tverdal.com</p>
+
 </div>
 
+<?php
+    require "footer.html"
+    ?>
 </body>
 </html>
