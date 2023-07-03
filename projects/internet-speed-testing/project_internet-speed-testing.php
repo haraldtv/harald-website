@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html>
 <head>
     <title id="title">Harald Tverdal</title>
 </head>
@@ -13,3 +15,4 @@
     require "footer.html"
     ?>
 </body>
+</html>
