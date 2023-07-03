@@ -6,13 +6,12 @@
 </head>
 <body>
 
-    <div class="navigation">
-        <a class="home" href="index.html">Home</a>
-        <a href="blog.html">Blog</a>
-        <a href="projects.html">Projects</a>
-    </div>
+<?php 
+        require "header.html"
+        ?>
 
 <p>These are my projects</p>
+<p><a href="">Password showcase</a></p>
 
 </body>
 </html>

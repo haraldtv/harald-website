@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="style.css">
+    
     <title id="title">Harald Tverdal</title>
 </head>
 <body>
@@ -21,6 +21,7 @@
     echo "Dagens dato: ";
     echo date("d.m.y");
     ?>
+    v3
 <p style="bottom: 0;position: fixed;left: 50%;font-size: smaller;">contact@tverdal.com</p>
 </div>
 
