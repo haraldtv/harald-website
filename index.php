@@ -6,11 +6,9 @@
 </head>
 <body>
 
-    <div class="navigation">
-        <a class="home" href="index.html">Home</a>
-        <a href="blog.html">Blog</a>
-        <a href="projects.html">Projects</a>
-    </div>
+    <?php 
+        require "header.html"
+        ?>
 
     <div class="intro">
 <header><h1 class="title">Harald Martin Tverdal</h1></header>
