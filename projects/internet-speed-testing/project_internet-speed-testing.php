@@ -6,7 +6,7 @@
 
 <body>
     <?php 
-        require "/header.html"
+        require "tverdal.com/header.html"
     ?>
 
     <p><h1>Internet speed testing</h1></p>
