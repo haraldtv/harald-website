@@ -13,5 +13,9 @@
 <p>These are my projects</p>
 <p><a href="">Password showcase</a></p>
 
+
+<?php
+    require "footer.html"
+    ?>
 </body>
 </html>
