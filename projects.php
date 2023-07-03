@@ -12,6 +12,7 @@
 
 <p>These are my projects</p>
 <p><a href="">Password showcase</a></p>
+<p><a href="https://tverdal.com/projects/internet-speed-testing/project_internet-speed-testing.php">Internet speed testing</a></p>
 
 
 <?php
