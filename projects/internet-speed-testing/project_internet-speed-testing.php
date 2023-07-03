@@ -1,3 +1,7 @@
+<head>
+    <title id="title">Harald Tverdal</title>
+</head>
+
 <body>
     <?php 
         require "header.html"
