@@ -5,16 +5,19 @@
     <title id="title">Harald Tverdal</title>
 </head>
 <body>
-    <p>Hellllllo</p>
 
-    
+    <?php 
+        require "header.html"
+        ?>
 
     <div class="intro">
 <header><h1 class="title">PHP test</h1></header>
 
 <?php
-    for ($i=0; $i<10; $i++) {
-        echo "Test";
+    $vari = 10
+    while ($vari > 1) {
+        $vari--;
+        echo "test";
     }
 ?>
 
@@ -22,6 +25,8 @@
 
 </div>
 
-
+<?php
+    require "footer.html"
+    ?>
 </body>
 </html>
