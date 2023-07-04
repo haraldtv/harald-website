@@ -1,6 +1,6 @@
 
 <?php
-    echo "<table border='1'>"
+    echo "<table border='1'>";
     for ($ytre_teller=1; $ytre_teller<=9; $ytre_teller++) {
         echo "<tr>";
 
