@@ -6,9 +6,7 @@
 </head>
 <body>
 
-    <?php 
-        require "header.html"
-        ?>
+    
 
     <div class="intro">
 <header><h1 class="title">PHP test</h1></header>
@@ -28,8 +26,6 @@
 
 </div>
 
-<?php
-    require "footer.html"
-    ?>
+
 </body>
 </html>
