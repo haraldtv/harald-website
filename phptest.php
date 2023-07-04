@@ -14,9 +14,9 @@
 <header><h1 class="title">PHP test</h1></header>
 
 <?php
-    $vari = 10
-    while ($vari > 1) {
-        $vari--;
+    $vari = 0
+    while ($vari < 10) {
+        $vari += 1;
         echo "test";
     }
 ?>
