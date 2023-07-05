@@ -4,7 +4,7 @@
     $matrisen = array();
 
     for ($i=0; $i<5; $i++) {
-        $matrisen[] = pow($i);
+        $matrisen[] = pow($i, 2);
     }
 
     echo "<table>";
