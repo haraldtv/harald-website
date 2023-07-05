@@ -3,7 +3,7 @@
     <header><h1 class="title">Admin login</h1></header>
 
     <div class="login_form">
-        <form action="admin.inc.php" method="get">
+        <form action="includes/admin.inc.php" method="get">
 
             <div class="uid_button">
             <input type="text" name="uid" placeholder="username">
