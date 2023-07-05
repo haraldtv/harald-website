@@ -1,14 +1,19 @@
 
 <?php
-    echo "<table border='1'>";
-    for ($ytre_teller=1; $ytre_teller<=9; $ytre_teller++) {
-        echo "<tr>";
 
-        for ($indre=1; $indre<=9; $indre++) {
-            $tall = $indre*$ytre_teller;
-            echo "<td>$tall</td>";
-        }
-        echo "</tr>";
+
+    $matrisen = array();
+
+    for ($i=0; $i<5; $i++) {
+        $matrisen[] = pow($i);
     }
-    echo "</table>";
-?>
+
+    echo "<table>";
+
+    for ($i=0; $i<5; $i++) {
+        echo "<tr>";
+        echo "<td>$matrisen[$i]</td>";
+        echo "<tr>";
+    }
+
+    echo "</table";
