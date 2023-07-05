@@ -1,4 +1,4 @@
 <?php
     echo "username: "; echo $_POST['uid'];
-    echo "<br>password: "; echo $POST['pwd'];
+    echo "<br>password: "; echo $_POST['pwd'];
     ?>
