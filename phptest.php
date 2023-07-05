@@ -1,4 +1,3 @@
-
 <?php
 
 
@@ -16,5 +15,5 @@
         echo "<tr>";
     }
 
-    echo "</table";
+    echo "</table>";
     ?>
