@@ -12,7 +12,7 @@
     for ($i=0; $i<5; $i++) {
         echo "<tr>";
         echo "<td>$matrisen[$i]</td>";
-        echo "<tr>";
+        echo "</tr>";
     }
 
     echo "</table>";
