@@ -7,7 +7,7 @@
 <body>
 
 <?php 
-        require "header.html"
+        require "../header.html"
         ?>
 
 <p>This is where i would put my blog posts.....if i had any!</p>
@@ -15,7 +15,7 @@
 
 
 <?php
-    require "footer.html"
+    require "../footer.html"
     ?>
 </body>
 </html>
