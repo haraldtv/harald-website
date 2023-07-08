@@ -16,6 +16,7 @@
         echo "<input type='checkbox'>";
         echo "<span class='slider'></span>";
         echo "</label>";
+        echo "</form>";
     }
     else 
         echo "Failure";
