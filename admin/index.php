@@ -1,3 +1,4 @@
+<html>
 <?php 
     if ((isstet($_POST[pwd]) and ($_POST[pwd] == 'passord') {
         define ("PASSWORD_KEY", "passord");
@@ -17,7 +18,7 @@
 }
 else {
 ?>
-
+<body>
 <section class="login_page">
 
     <header><h1 class="title">Admin login</h1></header>
@@ -42,3 +43,4 @@ else {
 <?php 
     }
 ?>
+</body></html>
