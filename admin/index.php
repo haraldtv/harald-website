@@ -19,7 +19,7 @@ define ("USERNAME", "admin");
             echo "<br";
             echo "<header><h1>Admin panel</h1></header>";
 
-            $FILE = "iplog.txt";
+            $FILE = "../../../../home/harald/iplog.txt";
             $VAL = "TEST";
 
             file_put_contents($FILE, $VAL);
