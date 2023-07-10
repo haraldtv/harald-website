@@ -19,7 +19,7 @@ define ("USERNAME", "admin");
             echo "<br";
             echo "<header><h1>Admin panel</h1></header>";
 
-            file_put_contents("../../../../home/harald/iplog.txt", "$_SERVER[REMOTE_ADDR]", FILE_APPEND);
+            file_put_contents("./iplog.txt", "TEST", FILE_APPEND);
 
             echo "<form ";
         }
