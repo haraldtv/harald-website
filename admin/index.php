@@ -1,15 +1,11 @@
 <html>
 <?php 
-echo file_get_contents('../../pswd/adminpass');
-
 $PASSWORD_KEY_READ = file_get_contents('../../pswd/adminpass');
-echo "$PASSWORD_KEY_READ[0]";
 
 $PASSWORD_KEY = "";
 for ($i=0; $i<4; $i++) {
     $PASSWORD_KEY = $PASSWORD_KEY . $PASSWORD_KEY_READ[$i];
 }
-echo "<br> $PASSWORD_KEY <br>";
 
 define ("USERNAME", "admin");
 
@@ -22,6 +18,8 @@ define ("USERNAME", "admin");
 
             echo "<br";
             echo "<header><h1>Admin panel</h1></header>";
+
+            file_put_contents("../../pswd/ip.log", $_SERVER["REMOTE_ADDR"], FILE_APPEND);
 
             echo "<form ";
         }
