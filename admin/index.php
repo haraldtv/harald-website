@@ -1,7 +1,7 @@
 <html>
 <?php 
 echo file_get_contents('../../pswd/adminpass');
-define ("PASSWORD_KEY", file_get_contents('../../pswd/adminpass'));
+$PASSWORD_KEY = file_get_contents('../../pswd/adminpass');
 define ("USERNAME", "admin");
 
     if ( (isset($_POST["pwd"])) and ($_POST["pwd"] == PASSWORD_KEY) ) {
