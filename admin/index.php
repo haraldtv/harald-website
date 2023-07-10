@@ -4,7 +4,11 @@ echo file_get_contents('../../pswd/adminpass');
 
 $PASSWORD_KEY_READ = file_get_contents('../../pswd/adminpass');
 echo "$PASSWORD_KEY_READ[0]";
+
 $PASSWORD_KEY = "";
+for ($i=0; $i<4; $i++) {
+    $PASSWORD_KEY . $PASSWORD_KEY_READ[$i];
+}
 
 define ("USERNAME", "admin");
 
