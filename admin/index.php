@@ -1,11 +1,11 @@
 <html>
 <?php 
 echo file_get_contents('../../pswd/adminpass');
-if (file_get_contents('../../pswd/adminpass') == "test\n")
-    echo "TRUE!!";
-else
-    echo "FALSE:(";
-$PASSWORD_KEY = file_get_contents('../../pswd/adminpass');
+
+$PASSWORD_KEY_READ = file_get_contents('../../pswd/adminpass');
+echo $PASSWORD_KEY_READ[0];
+$PASSWORD_KEY = "";
+
 define ("USERNAME", "admin");
 
     if ( (isset($_POST["pwd"])) and ($_POST["pwd"] == $PASSWORD_KEY) ) {
