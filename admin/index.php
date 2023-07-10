@@ -1,6 +1,10 @@
 <html>
 <?php 
 echo file_get_contents('../../pswd/adminpass');
+if (file_get_contents('../../pswd/adminpass') == "test")
+    echo "TRUE!!";
+else
+    echo "FALSE:(";
 $PASSWORD_KEY = file_get_contents('../../pswd/adminpass');
 define ("USERNAME", "admin");
 
