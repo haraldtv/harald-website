@@ -7,7 +7,7 @@ define ("USERNAME", "admin");
     
         if ((($_REQUEST["pwd"] == PASSWORD_KEY) and ($_REQUEST["uid"])  ) == USERNAME) {
 
-            echo file_get_contents('../../../pswd/adminpass');
+            echo file_get_contents('../../pswd/adminpass');
 
             echo "SUCESS!!";
             echo "<br>Your ip: $_SERVER[REMOTE_ADDR]";
