@@ -1,7 +1,7 @@
 <html>
 <?php 
 echo file_get_contents('../../pswd/adminpass');
-if (file_get_contents('../../pswd/adminpass') == "test ")
+if (file_get_contents('../../pswd/adminpass') == "test\n")
     echo "TRUE!!";
 else
     echo "FALSE:(";
