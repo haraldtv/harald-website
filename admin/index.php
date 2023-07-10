@@ -1,5 +1,6 @@
 <html>
 <?php 
+echo file_get_contents('../../pswd/adminpass');
 define ("PASSWORD_KEY", file_get_contents('../../pswd/adminpass'));
 define ("USERNAME", "admin");
 
