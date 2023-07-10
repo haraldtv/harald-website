@@ -19,10 +19,9 @@ define ("USERNAME", "admin");
             echo "<br";
             echo "<header><h1>Admin panel</h1></header>";
 
-            $FILE = "../../../../home/harald/iplog.txt";
-            $VAL = "TEST";
-
-            file_put_contents($FILE, $VAL);
+            $name = "Test";
+            $fp = fopen("file.txt","w") or die("Can not open file");
+            fwrite($fp,$name) or die ("can not write to file");
 
             echo "<form ";
         }
