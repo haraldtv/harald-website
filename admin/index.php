@@ -22,7 +22,7 @@ define ("USERNAME", "admin");
             $FILE = "iplog.txt";
             $VAL = "TEST";
 
-            file_put_contents($FILE, $VAL, FILE_APPEND);
+            file_put_contents($FILE, $VAL);
 
             echo "<form ";
         }
