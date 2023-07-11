@@ -6,4 +6,4 @@ if (isset($_SESSION["teller"])) {
 else
     $_SESSION["teller"] = 1;
     ?>
-    <p> Antall besøk: <?php printf($_SESSION["tellet"]) ?> </p>
+    <p> Antall besøk: <?php echo $_SESSION["tellet"] ?> </p>
