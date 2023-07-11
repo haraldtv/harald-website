@@ -1,6 +1,6 @@
 <?php
 session_start();
-if (isset($_COOKIE"teller"])) {
+if (isset($_COOKIE["teller"])) {
     $_COOKIE["teller"]++;
 }
 else
