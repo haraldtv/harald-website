@@ -6,4 +6,4 @@ if (isset($_COOKIE"teller"])) {
 else
     setcookie("teller", 1, time()+3600);
     ?>
-    <p> Antall besøk: <?php echo $_SESSION["tellet"] ?> </p>
+    <p> Antall besøk: <?php echo $_COOKIE["teller"] ?> </p>
