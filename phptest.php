@@ -1,9 +1,9 @@
 <?php
 session_start();
-if (isset($_SESSION["teller"])) {
-    $_SESSION["teller"]++;
+if (isset($_COOKIE"teller"])) {
+    $_COOKIE["teller"]++;
 }
 else
-    $_SESSION["teller"] = 1;
+    setcookie("teller", 1, time()+3600);
     ?>
     <p> Antall besøk: <?php echo $_SESSION["tellet"] ?> </p>
