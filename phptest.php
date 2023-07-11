@@ -3,7 +3,10 @@ session_start();
 if (isset($_SESSION["teller"])) {
     $_SESSION["teller"]++;
 }
-else
+else{
     $_SESSION["teller"] = 1;
+}
+
+print_r($_SESSION);
     ?>
     <p> Antall besøk: <?php echo $_COOKIE["teller"] ?> </p>
