@@ -1,19 +1,9 @@
 <?php
-
-
-    $matrisen = array();
-
-    for ($i=0; $i<5; $i++) {
-        $matrisen[] = pow($i, 2);
-    }
-
-    echo "<table>";
-
-    for ($i=0; $i<5; $i++) {
-        echo "<tr>";
-        echo "<td>$matrisen[$i]</td>";
-        echo "</tr>";
-    }
-
-    echo "</table>";
+session_start();
+if (isset($_SESSION["teller"])) {
+    $_SESSION["teller"]++;
+}
+else
+    $_SESSION["teller"] = 1;
     ?>
+    <p> Antall besøk: <?php printf($_SESSION["tellet"]) ?> </p>
