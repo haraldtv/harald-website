@@ -9,4 +9,4 @@ else{
 
 print_r($_SESSION);
     ?>
-    <p> Antall besøk: <?php echo $_COOKIE["teller"] ?> </p>
+    <p> Antall besøk: <?php echo $_SESSION["teller"] ?> </p>
