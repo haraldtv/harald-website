@@ -1,15 +1,12 @@
 <?php
-    define ("PASSWORD_KEY", "passord");
-    define ("USERNAME", "admin");
-    if ((($_REQUEST["pwd"] == PASSWORD_KEY) and ($_REQUEST["uid"])  ) == USERNAME) {
+session_start();
 
-        echo "SUCESS!!";
-        echo "<br>Your ip: $_SERVER[REMOTE_ADDR]";
+$AUTHORIZED_SESSIONID = "abcd32"
 
-        echo "<br";
-        echo "<header><h1>Admin panel</h1></header>";
+if ($_SESSION["lin"] == $AUTHORIZED_SESSIONID) {
 
-        echo "<form ";
-    }
-    else 
-        echo "Failure";
+}
+
+else {
+    printf("ERROR: UNAUTHORIZED ACCESS");
+}
