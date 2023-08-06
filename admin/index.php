@@ -1,9 +1,16 @@
 <html>
 <?php 
-    if ( (isset($_POST["pwd"])) and ($_POST["pwd"] == 'passord') ) {
-        define ("PASSWORD_KEY", "passord");
-        define ("USERNAME", "admin");
-        if ((($_REQUEST["pwd"] == PASSWORD_KEY) and ($_REQUEST["uid"])  ) == USERNAME) {
+echo file_get_contents('../../pswd/adminpass');
+
+$PASSWORD_KEY_READ = file_get_contents('../../pswd/adminpass');
+echo "$PASSWORD_KEY_READ[0]";
+$PASSWORD_KEY = "";
+
+define ("USERNAME", "admin");
+
+    if ( (isset($_POST["pwd"])) and ($_POST["pwd"] == $PASSWORD_KEY) ) {
+    
+        if ((($_REQUEST["pwd"] == $PASSWORD_KEY) and ($_REQUEST["uid"])  ) == USERNAME) {
 
             echo "SUCESS!!";
             echo "<br>Your ip: $_SERVER[REMOTE_ADDR]";
